@@ -1,4 +1,4 @@
-![Logo compass.uol para readme](https://imgur.com/BTAqo7j)
+![Logo compass.uol para readme](https://i.imgur.com/BTAqo7j.jpeg)
 
 # Programa-de-Bolsas-Compass-Data-Analytics---AWS
 
