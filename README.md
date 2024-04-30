@@ -1,4 +1,4 @@
-![Imagem]{https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.linkedin.com%2Fin%2Fdavi-santos-40296919b&psig=AOvVaw15857mMPj6kfe3ramXWCo7&ust=1714577801796000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLjQ6Jmi6oUDFQAAAAAdAAAAABAE}
+![Imagem]{https://media.licdn.com/dms/image/D4D16AQE1y5EhjqS5Eg/profile-displaybackgroundimage-shrink_200_800/0/1704299431882?e=2147483647&v=beta&t=FvpkDNsOcN5gmUmBH9Xfs-XsPG1PTqcBZog04yaS60g}
 
 # Programa-de-Bolsas-Compass-Data-Analytics---AWS
 
