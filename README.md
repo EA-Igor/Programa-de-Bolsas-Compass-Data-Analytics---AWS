@@ -1,4 +1,4 @@
-![Imagem]{https://media.licdn.com/dms/image/D4D16AQE1y5EhjqS5Eg/profile-displaybackgroundimage-shrink_200_800/0/1704299431882?e=2147483647&v=beta&t=FvpkDNsOcN5gmUmBH9Xfs-XsPG1PTqcBZog04yaS60g}
+![Imagem]{https://imgur.com/a/vVb8kzH}
 
 # Programa-de-Bolsas-Compass-Data-Analytics---AWS
 
