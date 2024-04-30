@@ -1,6 +1,6 @@
 # Programa-de-Bolsas-Compass-Data-Analytics---AWS
 
-# Repositório de Estágio
+
 Bem-vindo ao meu repositório de estágio! Aqui você encontrará uma coleção dos meus certificados, projetos e exercícios realizados durante o período de estágio.
 
 ## Apresentação
