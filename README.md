@@ -9,3 +9,4 @@ Olá! Sou Igor de Eça Almeida, estudante de Sistemas de Informação no IFBA Ca
 
 ## Sprints
 1.  [Sprint 1](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%201/README.md)
+2.  [Sprint 2](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/tree/main/Sprint%202)
