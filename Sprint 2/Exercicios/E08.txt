@@ -1,0 +1,7 @@
+SELECT vendedor.cdvdd, vendedor.nmvdd
+FROM tbvendedor AS vendedor
+left join tbvendas as vendas
+    on vendedor.cdvdd = vendas.cdvdd
+group by vendedor.cdvdd,vendedor.nmvdd
+order by count(vendas.status = 'concluido') desc
+limit 1

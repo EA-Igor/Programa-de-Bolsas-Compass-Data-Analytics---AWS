@@ -1,0 +1,14 @@
+SELECT autor.codAutor, 
+       autor.nome, 
+       COUNT(livro.autor) AS quantidade_publicacoes
+FROM autor
+JOIN livro ON autor.codAutor = livro.autor
+GROUP BY autor.codAutor, autor.nome
+HAVING COUNT(livro.autor) = (
+    SELECT MAX(quantidade)
+    FROM (
+        SELECT COUNT(autor) AS quantidade
+        FROM livro
+        GROUP BY autor
+    )
+);

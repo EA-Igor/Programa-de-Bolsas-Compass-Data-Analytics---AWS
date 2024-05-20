@@ -1,0 +1,32 @@
+WITH VendasPorVendedor AS (
+    SELECT 
+        v.cdvdd, 
+        SUM(v.qtd * v.vrunt) AS valor_total_vendas
+    FROM 
+        tbvendas v
+    WHERE 
+        v.status = 'Concluído'
+    GROUP BY 
+        v.cdvdd
+    HAVING 
+        SUM(v.qtd * v.vrunt) > 0
+),
+VendedorMenorVenda AS (
+    SELECT 
+        cdvdd, 
+        valor_total_vendas
+    FROM 
+        VendasPorVendedor
+    ORDER BY 
+        valor_total_vendas ASC
+    LIMIT 1
+)
+SELECT 
+    d.cddep, 
+    d.nmdep, 
+    d.dtnasc, 
+    vm.valor_total_vendas
+FROM 
+    tbdependente d
+JOIN 
+    VendedorMenorVenda vm ON d.cdvdd = vm.cdvdd;

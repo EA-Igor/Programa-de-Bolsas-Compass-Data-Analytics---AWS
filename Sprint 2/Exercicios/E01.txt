@@ -1,0 +1,4 @@
+SELECT *
+FROM LIVRO
+WHERE publicacao > '2014-12-31'
+GROUP BY cod

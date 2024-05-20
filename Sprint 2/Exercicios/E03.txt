@@ -1,0 +1,10 @@
+SELECT COUNT(livro.editora) AS quantidade, 
+       editora.nome, 
+       endereco.estado, 
+       endereco.cidade
+FROM livro
+JOIN editora ON livro.editora = editora.codEditora
+JOIN endereco ON editora.endereco = endereco.codEndereco
+GROUP BY editora.codEditora
+ORDER BY quantidade DESC
+LIMIT 5;
