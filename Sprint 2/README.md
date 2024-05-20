@@ -21,7 +21,7 @@
 [Exercicios de exportação de dados 2](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%202/Exercicios/Exercicios%20Exporta%C3%A7%C3%A3o%20de%20dados/Etapa3-2.csv)
 
 # [Certificados](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/tree/main/Sprint%202/Certificados)
-![Certificado AWS Skill Builder](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%202/Certificados/Igor_Eca_Almeida_AWS%20Course%20Completion%20Certificate.pdf)
+![Certificado AWS Skill Builder](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%202/Certificados/Igor_Eca_Almeida_AWS%20Course%20Completion%20Certificate_pages-to-jpg-0001.jpg)
 
 # [Desafio](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/tree/main/Sprint%202/Desafio)
 [Modelo Dimencional](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%202/Desafio/ModeloDimensional.png)
