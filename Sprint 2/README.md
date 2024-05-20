@@ -1,8 +1,24 @@
 # Sprint 2
 
 # [Exercícios](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/tree/main/Sprint%202/Exercicios)
-
-# Evidências
+[E01](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%202/Exercicios/E01.txt)
+[E02](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%202/Exercicios/E02.txt)
+[E03](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%202/Exercicios/E03.txt)
+[E04](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%202/Exercicios/E04.txt)
+[E05](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%202/Exercicios/E05.txt)
+[E06](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%202/Exercicios/E06.txt)
+[E07](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%202/Exercicios/E07.txt)
+[E08](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%202/Exercicios/E08.txt)
+[E09](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%202/Exercicios/E09.txt)
+[E10](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%202/Exercicios/E10.txt)
+[E11](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%202/Exercicios/E11.txt)
+[E12](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%202/Exercicios/E12.txt)
+[E13](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%202/Exercicios/E13.txt)
+[E14](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%202/Exercicios/E14.txt)
+[E15](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%202/Exercicios/E15.txt)
+[E16](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%202/Exercicios/E16.txt)
+[Exercicios de exportação de dados 1](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%202/Exercicios/Exercicios%20Exporta%C3%A7%C3%A3o%20de%20dados/Etapa3-1.csv)
+[Exercicios de exportação de dados 2](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%202/Exercicios/Exercicios%20Exporta%C3%A7%C3%A3o%20de%20dados/Etapa3-2.csv)
 
 # [Certificados](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/tree/main/Sprint%202/Certificados)
 [Certificado AWS Skill Builder](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%202/Certificados/Igor_Eca_Almeida_AWS%20Course%20Completion%20Certificate.pdf)
