@@ -2,8 +2,9 @@
 
 # [Exercícios](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/tree/main/Sprint%204/Exercicios)
 
-# [Certificados](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/tree/main/Sprint%203/Certificado)
-![Certificado AWS Skill Builder](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%203/Certificado/Igor_Almeida_Aws_CertificadoCourse%20Completion%20Certificate.jpg)
+# [Certificados](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/tree/main/Sprint%204/Certificado)
+![Certificado AWS Skill Builder](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%204/Certificado/CertificadoCredenciamento.jpeg)
+![Certificado AWS Skill Builder](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%204/Certificado/CertificadoTechnicalEssentials.jpeg)
 
 # [Desafio](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/tree/main/Sprint%204/Desafio)
 ## [Evidências Desafio](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/tree/main/Sprint%204/Evidencias)
