@@ -1,0 +1,1 @@
+O comando para reiniciar um container parado em meu ambiente Docker é: docker start <nome_do_container>
