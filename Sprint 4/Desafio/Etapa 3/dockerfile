@@ -5,10 +5,10 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copia o script Python para o diretório de trabalho dentro do container
-COPY teste.py .
+COPY etapa3.py .
 
 # Comando para executar o script Python
-CMD ["python", "teste.py"]
+CMD ["python", "etapa3.py"]
 
 # docker build -t mascarar-dados .  // comando para fazer a build do container
 # docker run -it mascarar-dados // comando para rodar o container
