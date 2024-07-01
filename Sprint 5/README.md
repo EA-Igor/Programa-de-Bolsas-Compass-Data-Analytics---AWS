@@ -1,6 +1,6 @@
 # Sprint 5
 
-# [Exercícios]
+# Exercícios
 ## Não tiveram exercicios nessa sprint.
 # [Desafio](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/tree/main/Sprint%205/Desafio)
 # [Evidências Desafio](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/tree/main/Sprint%205/Evidenciasc)
