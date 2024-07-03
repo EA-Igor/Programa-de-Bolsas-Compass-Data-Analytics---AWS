@@ -1,6 +1,6 @@
 # S3 Select Query Execution Script
 
-Este script executa uma consulta S3 Select e imprime os resultados no terminal.
+Este script executa uma consulta S3 Select e imprime os resultados no terminal. Foi utilizada a linguagem pytohn juntamente com a biblioteca Boto3. Para o arquivo .csv foi escolhido um com o tema: quantitativo de internações realizadas na UTI por mês de maio a outubro de 2022 no Hospital Universitário da Universidade Federal da Grande Dourados – HU-UFGD.
 
 ## Código
 
