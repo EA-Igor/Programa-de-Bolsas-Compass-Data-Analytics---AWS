@@ -10,3 +10,10 @@
 ![Print bucket carregado](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%206/Evidências/Desafio/WhatsApp%20Image%202024-07-13%20at%205.26.40%20PM.jpeg)
 
 ## Comentários sobre o código presentes em cada código
+
+# Perguntas:
+
+## Quantos filmes de drama e romance tem mais de 90 minutos entre os anos de 1970 e 1990? E qual o top 10 filmes mais longos?
+
+## Qual o ano de lançamento com mais séries de drama e romance?
+
