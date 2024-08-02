@@ -1,0 +1,59 @@
+import sys
+from awsglue.transforms import *
+from awsglue.utils import getResolvedOptions
+from pyspark.context import SparkContext
+from awsglue.context import GlueContext
+from awsglue.job import Job
+import pyspark.sql.functions as F
+
+# Parâmetros
+args = getResolvedOptions(sys.argv, ['JOB_NAME', 'S3_INPUT_PATH', 'S3_OUTPUT_PATH'])
+s3_input_path = args['S3_INPUT_PATH']
+s3_output_path = args['S3_OUTPUT_PATH']
+
+# Contexto
+sc = SparkContext()
+glueContext = GlueContext(sc)
+spark = glueContext.spark_session
+job = Job(glueContext)
+job.init(args['JOB_NAME'], args)
+
+# Ler o arquivo CSV do S3
+df = spark.read.format("csv").option("header", "true").load(s3_input_path)
+
+# Imprimir o schema do dataframe
+df.printSchema()
+
+# Alterar a caixa dos valores da coluna nome para MAIÚSCULO
+df = df.withColumn("nome", F.upper(F.col("nome")))
+
+# Imprimir a contagem de linhas presentes no dataframe
+print(f"Contagem de linhas: {df.count()}")
+
+# Imprimir a contagem de nomes, agrupando os dados pelas colunas ano e sexo
+df_grouped = df.groupBy("ano", "sexo").count()
+df_grouped.show()
+
+# Ordenar os dados de modo que o ano mais recente apareça como primeiro registro
+df_ordered = df.orderBy(F.desc("ano"))
+
+# Apresentar o nome feminino com mais registros e o ano
+female_max = df.filter(df.sexo == 'F').groupBy("nome", "ano").count().orderBy(F.desc("count")).first()
+print(f"Nome feminino com mais registros: {female_max['nome']} no ano {female_max['ano']} com {female_max['count']} registros")
+
+# Apresentar o nome masculino com mais registros e o ano
+male_max = df.filter(df.sexo == 'M').groupBy("nome", "ano").count().orderBy(F.desc("count")).first()
+print(f"Nome masculino com mais registros: {male_max['nome']} no ano {male_max['ano']} com {male_max['count']} registros")
+
+# Apresentar o total de registros (masculinos e femininos) para cada ano
+df_total_per_year = df.groupBy("ano", "sexo").count().orderBy("ano", "sexo")
+df_total_per_year.show()
+
+# Considerar apenas as primeiras 10 linhas, ordenadas pelo ano de forma crescente
+df_top10 = df.orderBy("ano").limit(10)
+df_top10.show()
+
+# Escrever o conteúdo do dataframe com os valores de nome em maiúsculo no S3
+df.write.partitionBy("sexo", "ano").format("json").mode("overwrite").save(s3_output_path + "frequencia_registro_nomes_eua/")
+
+job.commit()
