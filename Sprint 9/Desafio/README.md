@@ -1,8 +1,7 @@
 # Para resolver o desafio foi necessário:
-### 1. Criar 2 Jobs no AWS Glue para realizar a conversão e filtragem dos arquivos.
+### 1. Criar 1 Job no AWS Glue para realizar a união e filtragem dos dados.
 ### 2. Foram colocados os input e output paths nas variaveis de ambiente
-### 3. Criar um crawler para possibilitar a visualização dos dados no athena.
-### 4. Visualização dos dados no athena por meio de query.
+### 3. Elaborar um modelo dimensional com as dimensões e o fato respectivo
 
 # Evidências:
 
