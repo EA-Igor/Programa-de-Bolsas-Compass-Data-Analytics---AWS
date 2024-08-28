@@ -6,6 +6,9 @@
 
 # Evidências:
 
+## Modelo dimensional:
+### ![Modelo dimensional](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%209/Desafio/sprint%209.drawio.png)
+
 ## Run bem-sucedidas:
 ### ![Run job](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%209/Evidencias/Desafio/RunJob.jpeg)
 
