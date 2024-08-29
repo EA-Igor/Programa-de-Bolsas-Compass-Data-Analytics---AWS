@@ -32,3 +32,7 @@
 
 ## Fact Ratings:
 ### ![Fact Ratings](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%209/Evidencias/Desafio/%20queryFactRatings.jpeg)
+
+# Perguntas do desafio final:
+## Quantos filmes de drama e romance tem mais de 90 minutos entre os anos de 1980 e 1990? Duração maior indica nota melhor nota ou rendimento?
+## Qual o ano de lançamento com mais séries de drama e romance entre os anos de 1970? Mais lançamentos diminuem a audiência?
