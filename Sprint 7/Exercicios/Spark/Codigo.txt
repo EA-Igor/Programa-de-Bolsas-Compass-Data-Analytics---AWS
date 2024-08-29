@@ -1,0 +1,29 @@
+# Primeiro comando
+docker pull jupyter/all-spark-notebook
+
+#Criar e inicar o container:
+docker run -it --name spark-container -p 8888:8888 jupyter/all-spark-notebook
+
+#Baixar o arquivo do git:
+wget --header="Authorization: Bearer Token_de_acesso" -O README.md https://raw.githubusercontent.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/main/README.md
+Troque o "Token_de_acesso" pelo token do github, utilizei um token pois o repositorio é privado
+
+# Acessar o shell pySpark:
+docker exec -it spark-container pyspark
+
+Comandos no shell pySpark:
+
+# Carregar o arquivo
+text_file = sc.textFile("README.md")
+
+# Dividir cada linha em palavras
+words = text_file.flatMap(lambda line: line.split(" "))
+
+# Mapear cada palavra com o valor 1
+word_pairs = words.map(lambda word: (word, 1))
+
+# Reduzir por chave (palavra) somando os valores
+word_counts = word_pairs.reduceByKey(lambda a, b: a + b)
+
+# Mostrar o resultado
+word_counts.collect()
