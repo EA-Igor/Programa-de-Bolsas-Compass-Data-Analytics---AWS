@@ -13,7 +13,4 @@
 ## ![Dashboard](https://github.com/EA-Igor/Programa-de-Bolsas-Compass-Data-Analytics---AWS/blob/main/Sprint%2010/Evidencias/Desafio/Print-Dashboard.jpeg)
 
 # Sobre o dashboard:
-## Ele contém dois gráficos de linha, sendo um para representar o custo(budget) e receita(revenue) e o outro para representar esses valores corrigidos para o dia de hoje.
-## Também possui dois gráficos de rosca para representar o total de votos e a popularidade respectivamente.
-## Por ultimo um gráfico de barras que mostra a nota média de cada filme.
-
+## O dashboard contém dois gráficos de linha, sendo um para representar o custo(budget) e receita(revenue) e o outro para representar esses valores corrigidos para o dia de hoje. Ele também possui dois gráficos de rosca para representar o total de votos e a popularidade respectivamente, por ultimo, existe um gráfico de barras que mostra a nota média de cada filme.
